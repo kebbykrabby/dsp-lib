@@ -49,28 +49,3 @@ The --plot flag is optional. It invokes the plot_spectrogram.py script automatic
 You can also run the Python plotting script manually:
 
 python3 plot_spectrogram.py ./plots/spectrogram.csv
-
-## 📁 Project Structure
-dsp-lib/
-├── include/         # Header files
-│   ├── fft.h
-|   ├── file_io.h
-|   ├── fir_filter.h
-|   ├── spectrogram.h
-│   ├── complex.h
-│   ├── wav.h
-│   └── window.h
-├── src/             # Implementation files
-│   ├── fft.c
-|   ├── file_io.c
-|   ├── fir_filter.c
-|   ├── spectrogram.c
-│   ├── complex.c
-│   ├── wav.c
-│   └── window.c
-├── tests/           # Test and example programs
-│   └── test_spectrogram.c
-├── plots/           # CSV output and spectrogram images
-├── Makefile
-├── plot_spectrogram.py
-└── README.md
