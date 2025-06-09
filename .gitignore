@@ -1,0 +1,12 @@
+build/
+*.o
+*.wav
+*.png
+__pycache__/
+*.csv
+build/
+*.o
+*.wav
+*.png
+__pycache__/
+*.csv
