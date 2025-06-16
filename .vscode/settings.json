@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "complex": "c",
+        "complex.h": "c",
+        "fir_filter.h": "c"
+    }
+}
