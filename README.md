@@ -35,13 +35,12 @@ dsp-lib/
 │   └── window.c
 │
 ├── examples/          # Usage examples and plotting scripts
-│   ├── adaptive_filter_example.c
-│   ├── complex_example.c
 │   ├── fft_example.c
 │   ├── fir_example.c
 │   ├── iir_example.c
 │   ├── spectrogram_example.c
 │   ├── plot_lms.py
+│   ├── plot_spectrogram.py
 │   └── plot_fft.py
 │
 ├── plots/             # Example output (csv/plots) — *ignored by git*
